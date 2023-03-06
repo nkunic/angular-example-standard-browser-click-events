@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { COURSES } from '../db-data';
+import { COURSES } from './model/db-data';
 
 @Component({
   selector: 'my-app',
@@ -14,5 +14,4 @@ export class AppComponent {
   onStandardCardClicked() {
     console.log('App component - standard browser click event bubbled...');
   }
-
 }
